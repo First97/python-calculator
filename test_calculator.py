@@ -41,6 +41,5 @@ class TestCalculator(unittest.TestCase):
     def test_modulo_2(self):
         self.assertAlmostEqual(self.calc.modulo(10,4),2)
 
-
 if __name == '__main':
     unittest.main()
